@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+}
+
+.logo img {
+    width: 200px;
+    height: 100px;
+}
+
+.logo h1 {
+    font-size: 50px;
+    color: red;
+    padding-left: 200px;
+    margin-top: -80px;
+}
+
+.box {
+    padding-left: 700px;
+    margin-top: -50px;
+}
+
+.user {
+    float: right;
+    padding-right: 100px;
+    margin-top: -20px;
+}
+
+.cart {
+    float: right;
+    padding-right: 130px;
+    margin-top: -20px;
+}
+
+nav ul {
+    background: pink;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    color: #f1f1f1;
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: -5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+nav a:hover {
+    background: #F1F1F1;
+    color: #333;
+}
+
+#wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.headLine {
+    text-align: center;
+    margin: 40px 0px;
+}
+
+h3 {
+    font-size: 20px;
+    color: black;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid #bebebe;
+    display: inline-block;
+}
+
+ul.product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+
+ul.product li {
+    flex-basis: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+
+ul.product li img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul.product li .product-top {
+    position: relative;
+    overflow: hidden;
+}
+
+ul.product li .product-top .product-thumb {
+    display: block;
+}
+
+ul.product li:hover .product-top .product-thumb img {
+    filter: opacity(80%);
+}
+
+ul.product li .product-top .product-thumb img {
+    display: block;
+}
+
+ul.product li .product-top a.buy {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    background-color: #f74397;
+    color: #fff;
+    padding: 10px 0px;
+    position: absolute;
+    bottom: -40px;
+    width: 100%;
+    transition: 0.25s ease-in-out;
+    opacity: 0.85;
+}
+
+ul.product li:hover a.buy {
+    bottom: 0px;
+}
+
+ul.product li .product-infor a {
+    display: block;
+}
+
+ul.product li .product-infor a.product-cart {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #b9b9b9;
+    padding: 5px 0px;
+}
+
+ul.product li .product-infor a.product-name {
+    color: rgb(51, 51, 51);
+    padding: 1px 0px;
+}
+
+ul.product li .product-infor .product-price {
+    color: black;
+    padding: 2px 0px;
+    font-weight: bold;
+}
+
+ul.menu li.menu ul.menu1 {
+    position: absolute;
+    background: #8AD385;
+    width: 150px;
+    padding: 0;
+    list-style-type: none;
+    text-align: left;
+    display: none;
+    z-index: 999;
+}
+ul.menu li:hover ul.menu1 {
+    display: block;
+    
+}
+ul.menu li.menu ul.menu li {
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 0 1em;
+}
+ul.menu li.menu ul.menu li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: block;
+}
+ul.menu li.menu ul.menu li:hover {
+    background: #CDE2CD;
+}
